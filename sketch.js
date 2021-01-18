@@ -23,12 +23,12 @@ function setup() {
 	bob4 = new Bob(425,400,60);
 	bob5 = new Bob(500,400,60);
 
-	rope1 = new Rope(bob1.body,roof.body,-145,0);
-	rope2 = new Rope(bob2.body,roof.body,-70,0);
+	rope1 = new Rope(bob1.body,roof.body,-205,0);
+	rope2 = new Rope(bob2.body,roof.body,-100,0);
 	rope3 = new Rope(bob3.body,roof.body,5,0);
-	rope4 = new Rope(bob4.body,roof.body,80,0);
-	rope5 = new Rope(bob5.body,roof.body,155,0);
-
+	rope4 = new Rope(bob4.body,roof.body,130,0);
+	rope5 = new Rope(bob5.body,roof.body,195,0);
+	
 	Engine.run(engine);
   
 }
