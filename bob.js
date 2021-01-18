@@ -18,7 +18,7 @@ class Bob{
         var radius = this.body.radius;
         push()
         translate(pos.x,pos.y);
-        ellipseMode(CENTER);
+        ellipseMode(radius);
         fill("red");
         circle(0,0,this.radius);
         pop()
