@@ -56,9 +56,9 @@ function draw() {
 
 }
 
-function leftArrow() {
+function keyPressed() {
 
 	if(keyCode === LEFT_ARROW){
-	Matter.Body.applyForce(bob1.body,bob1.body.position,{x:500,y:30});
+	Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-1000,y:-200});
 	}
 }
